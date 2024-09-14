@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: 'DM Sans', sans-serif;
+    height: 100%;
+    color: #121212;
+    font-size: 65%;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button,
+select {
+    font: inherit
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style-type: none;
+}
+
+span {
+    font-weight: 700;
+}
+
+/* GERERAL HEADING STYLING */
+
+
+
+/* HEADER SECION */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 9rem;
+    padding: 0 4rem;
+    background-color: #226c02;
+}
+
+.logo {
+    height: 3rem;
+}
+
+.main-nav-list {
+    list-style: none;
+    display: flex;
+    font-size: 1.7rem;
+    gap: 1.8rem;
+    font-weight: 700;
+    background: #d8f5cc;
+    border-radius: 50px;
+    padding: 1rem 2rem;
+}
+
+.main-nav-list a {
+    padding: 1rem;
+    transition: all 150ms ease-in-out;
+}
+
+.main-nav-list a:hover {
+    background: #c4e8b4;
+    color: #2b7f06
+}
+
+
+
+.header .solid-btn {
+    padding: 1rem 4rem
+}
+
+.header .solid-btn span {
+    color: #e3f9da;
+    margin-right: 0.2rem;
+}
+
+.solid-btn {
+    background: #379e0a;
+    color: whitesmoke
+}
+
+/* HEADER STICKY */
+
+/* .sticky .header {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    background: #f1ffebb7;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    z-index: 10;
+    height: 8rem;
+    box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.05); }
+  
+  .sticky .section-hero {
+    margin-top: 8rem; } */
+
+/* MOBILE NAV */
+
+.mobile-nav-btn {
+    border: none;
+    background: none;
+    cursor: pointer;
+    display: none;
+    width: fit-content;
+}
+
+.mobile-nav-btn i {
+    color: #0e2803;
+    font-size: 1.6rem;
+}
+
+.mobile-order,
+.mobile-close span {
+    display: none;
+}
+
+.btn {
+    border-radius: 50px;
+    padding: 1rem 5rem;
+    font-size: 1.7rem;
+    margin: 0 1rem;
+    font-weight: 400;
+    transition: all 150ms ease-in-out;
+}
+
+.outline-btn {
+    background: white;
+    box-shadow: inset 0 0 0 2px #379e0a;
+}
+
+.outline-btn:hover {
+    background: #5db935bb;
+    box-shadow: none;
+}
+
+.solid-btn {
+    background: #379e0a;
+    color: whitesmoke;
+}
+
+.solid-btn:hover {
+    background: #226c02;
+}
+
+/* HERO */
+
+.section-hero {
+    background: linear-gradient(359.56deg, rgba(196, 232, 180, 0.43) -32.94%, rgba(216, 245, 204, 0) 99.61%);
+    padding: 4rem 0;
+}
